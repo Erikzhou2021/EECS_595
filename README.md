@@ -58,3 +58,5 @@ pip install -r requirements2.txt
 * run_mistral.sh
 * run_mistral_mine.sh
 * run_llama.sh
+* run_gpt2-xl.sh
+* run_opt-1.3b.sh
