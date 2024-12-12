@@ -53,3 +53,8 @@ pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --e
 pip install -r requirements1.txt
 pip install -r requirements2.txt
 ```
+
+### 2) Run the following bash files to get bias metric results
+* run_mistral.sh
+* run_mistral_mine.sh
+* run_llama.sh
