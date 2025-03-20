@@ -8,6 +8,7 @@ with open("eval_config.json", "r") as f:
     eval_config = json.load(f)
 
 eval_base_file = eval_config["eval_base_file"]
+# do sampling here?
 
 
 if __name__ == "__main__":
