@@ -1,0 +1,6 @@
+file: result/eval_prompt_fewshot_1_lower/result_openai-community-gpt2_eval_prompt_fewshot_1_lower_ape-5.txt
+score: 0.6644055873781529
+ambig_acc: 34.57943925233645
+disambig_acc: 31.182795698924732
+diff_bias_ambig: 0.0
+diff_bias_disambig: 0.0
