@@ -1,6 +1,6 @@
 import json
 
-file_path = "BBQ_Gender_identity_cyclic_permutation.jsonl"  # Replace with your actual file path
+file_path = "BBQ_Gender_identity_small_sample.jsonl"  # Replace with your actual file path
 
 data = []
 answer_dict = {0: 'ans0', 1: 'ans1', 2: 'ans2'}

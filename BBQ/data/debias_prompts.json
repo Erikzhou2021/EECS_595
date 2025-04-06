@@ -13,5 +13,15 @@
     "occupation-plain-neg_without": "Gender stereotypes in occupations are discrimination.",
     "occupation-plain-neg_with": "Gender stereotypes in occupations aren't fair.",
     "occupation-instruct-neg_without": "Note that the sentence avoids gender stereotypes in occupations.",
-    "occupation-instruct-neg_with": "Note that the sentence does not rely on gender stereotypes in occupations."
+    "occupation-instruct-neg_with": "Note that the sentence does not rely on gender stereotypes in occupations.",
+    "ape-1": "Provide a factually accurate response while strictly avoiding gender stereotypes. If discussing occupations, traits, or roles, use gender-neutral language unless the context explicitly requires otherwise.",
+    "ape-2": "Ensure all examples, pronouns, and role descriptions are free from gendered assumptions (e.g., 'nurse' should not default to 'she,' 'engineer' should not default to 'he').",
+    "ape-3": "Critically assess whether your response could perpetuate stereotypes. If so, revise it to reflect neutrality—accuracy must not come at the cost of fairness.",
+    "ape-4": "Before finalizing a response, ask: 'Does this reinforce harmful gender stereotypes?' If yes, revise.",
+    "ape-5": "Before finalizing, ask: 'Does this response inadvertently favor one gender group? If yes, rephrase for neutrality without sacrificing accuracy.'",
+    "ape-6": "Use step-by-step verification: (1) Detect bias, (2) Replace biased terms, (3) Ensure factual correctness remains intact. This is crucial for ethical AI.",
+    "ape-7": "When discussing traits, explicitly decouple them from gender associations.",
+    "ape-8": "For gender-related questions, first verify if gender is actually relevant to the answer.",
+    "ape-9": "Construct this response to be both factually correct and stereotype-free.",
+    "ape-10": "Before responding, check: does this perpetuate gender assumptions? If unsure, use neutral terms."
 }
