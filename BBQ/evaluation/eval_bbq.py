@@ -272,8 +272,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     file_dir = Path(args.result_dir)
     files = file_dir.glob("**/*.txt")
-    list_files = list(files)
     if(args.ape):
+        list_files = list(files)
         best_pred_result = eval_ape(list_files, jsonl_data)
         print("Best prediction result:", best_pred_result)
         # Define the output directory using pathlib
