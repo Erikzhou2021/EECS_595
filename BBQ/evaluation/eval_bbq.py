@@ -191,9 +191,10 @@ def eval_ape(pred_results, jsonl_data):
     top_k_percent = 0.40
 
     iteration_count = 0
+    best_result_with_score = {}
     while len(pred_results) > 1:
         # choose a random training subset D_train
-        if jsonl_data_len < 200:
+        if jsonl_data_len < 2016:
             sample_indices = random.sample(range(jsonl_data_len), 4)
         else:
             sample_indices = random.sample(range(jsonl_data_len), 200)
@@ -218,7 +219,7 @@ def eval_ape(pred_results, jsonl_data):
                     ambig_all_ems.append(em)
                 elif jsonl_data[i]["context_condition"] == "disambig":
                     disambig_all_ems.append(em)
-
+                gold_labels.append(jsonl_data[i])
             bias_res, anti_bias_res = bias_score_ambig(preds, ems, gold_labels)
             dis_bias_res, dis_anti_bias_res = bias_score_disambig(preds, gold_labels)
             # ambiguous QA accuracy calculation
