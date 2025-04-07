@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/evaluation/eval_bbq.py",
             "console": "integratedTerminal",
-            "args": ["--result_dir", "result"],
+            "args": ["--result_dir", "result", "--ape"],
             "justMyCode": true
         }
     ]
