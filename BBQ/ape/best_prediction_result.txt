@@ -1,0 +1,2 @@
+file: result/result_deepseek-ai-DeepSeek-R1-Distill-Qwen-14B_eval_prompt_fewshot_1_lower_ape-25.txt
+score: 0.852
